@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+         body{
+                height: 100vh;
+                display: grid;
+                gap: 10px;
+                place-items: center;
+            }
+
+            #container-1, #container-2, #container-3, #container-4, #container-5{
+                width: 300px;
+                height: 300px;
+                border: 2px solid;
+                padding: 20px;
+            }
+            button{
+                padding: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div id="container-1"></div>
+
+    <button onclick="callp()">For Paragraph</button>
+
+    <div id="container-2"></div>
+    
+    <button onclick="removep()">For Remove</button>
+    
+    <div id="container-3"></div>
+    
+    <button onclick="toggle()">Click Me</button>
+
+    <div id="container-4"></div>
+    
+    <button onclick="mess()">Change Text</button>
+
+    <div id="container-5"></div>
+    
+    <button onclick="change1()">For Ordered List</button>
+
+    <button onclick="change2()">For Unordered List</button>
+
+    <script src="index1.js"></script>
+
+</body>
+</html>
